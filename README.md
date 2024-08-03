@@ -1,4 +1,4 @@
-# TECHNICAL TEST - Front Developer - Dot Indonesia
+# TECHNICAL TEST - Frontend Developer - Dot Indonesia
 
 ## Description Test
 
@@ -15,7 +15,6 @@ Membuat aplikasi sederhana yaitu quiz app menggunakan react.js dan opentdb
     g. Jika timer habis, soal akan ditutup & menampilkan hasil pengerjaan (jumlah benar, jumlah salah & jumlah jawab).
     h. Ketika browser ditutup, ada mekanisme resume kuis. Bisa menggunakan localstoragebrowser untuk menyimpan data (Nilai Plus)
 
-
 ## Teknologi yang Digunakan
 
 Programming Language": Node.js v20.16.0
@@ -31,9 +30,11 @@ API Endpoint Tools: "https://opentdb.com/api.php?amount=10&category=15&difficult
 ## Panduan Penggunaan Aplikasi
 
 ### 1. Clone Repository
+
     https://github.com/MuhamadAgungGumelar/quizapp
-    
+
 ### 2. Install Dependencie
+
     npm install
 
 ### 3. Menjalankan Aplikasi
@@ -41,6 +42,5 @@ API Endpoint Tools: "https://opentdb.com/api.php?amount=10&category=15&difficult
     npm run dev
 
 ### 4. Mengakses website next.js
+
     http://localhost:3000
-
-
