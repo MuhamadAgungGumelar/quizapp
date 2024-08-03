@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TECHNICAL TEST - Front Developer - Dot Indonesia
 
-## Getting Started
+## Description Test
 
-First, run the development server:
+Membuat aplikasi sederhana yaitu quiz app menggunakan react.js dan opentdb
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Fitur Utama
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    a. Memiliki fitur login
+    b. Untuk api soal bisa ambil dari https://opentdb.com/
+    c. Jumlah & type soal bebas.
+    d. Total soal & jumlah yang dikerjakan ditampilkan
+    e. Memiliki Timer. Jumlah waktu pengerjaan kuis bebas.
+    f. Satu halaman hanya menampilkan satu soal. Jadi ketika user telah memilih jawaban, langsung pindah soal.
+    g. Jika timer habis, soal akan ditutup & menampilkan hasil pengerjaan (jumlah benar, jumlah salah & jumlah jawab).
+    h. Ketika browser ditutup, ada mekanisme resume kuis. Bisa menggunakan localstoragebrowser untuk menyimpan data (Nilai Plus)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Teknologi yang Digunakan
 
-## Learn More
+Programming Language": Node.js v20.16.0
 
-To learn more about Next.js, take a look at the following resources:
+Library: React.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Framework: Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Fetch API Tools: Axios
 
-## Deploy on Vercel
+API Endpoint Tools: "https://opentdb.com/api.php?amount=10&category=15&difficulty=easy&type=boolean"
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Panduan Penggunaan Aplikasi
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 1. Clone Repository
+    https://github.com/MuhamadAgungGumelar/quizapp
+    
+### 2. Install Dependencie
+    npm install
+
+### 3. Menjalankan Aplikasi
+
+    npm run dev
+
+### 4. Mengakses website next.js
+    http://localhost:3000
+
+
